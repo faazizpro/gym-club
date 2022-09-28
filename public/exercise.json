@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dumble",
+        "description": "Dumbbells are small bars that fit in your hand and have equal weights.",
+        "age": "20-25",
+        "time": 10,
+        "img": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Push Up",
+        "description": "Push up burns calories, protecting your shoulders and lower back.",
+        "age": "18-35",
+        "time": 5,
+        "img": "https://images.unsplash.com/photo-1603503364272-6e28e046b37a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Pull Up",
+        "description": "Pull up engage your abs, including your deep transverse abdominis.",
+        "age": "20-30",
+        "time": 15,
+        "img": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Battle Rope",
+        "description": "Battle rope exercises are great for building muscular strength.",
+        "age": "19-27",
+        "time": 12,
+        "img": "https://images.unsplash.com/photo-1593234270120-189e191918a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Tread Mill",
+        "description": "It helps to lower blood pressure and allows the heart to pump blood.",
+        "age": "19-27",
+        "time": 20,
+        "img": "https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id": 6,
+        "name": "Tread Mill",
+        "description": "The triceps are essential for building upper body strength.",
+        "age": "19-27",
+        "time": 20,
+        "img": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
+    }
+]
