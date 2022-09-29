@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Calculate from '../Calculate/Calculate';
 import Exercise from '../Exercise/Exercise';
 import './GYM.css'
 
@@ -24,7 +25,7 @@ const GYM = () => {
             </div>
 
             <div className="calculate-container  border-2 border-green-500">
-                <h3 className='text-4xl font-bold'>This is weight calculate</h3>
+                <Calculate></Calculate>
             </div>
         </div>
     );
