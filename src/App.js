@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Header from './components/Header/Header';
+
+
 function App() {
   return (
-    <div className="App">
-          <h1 className="text-5xl font-bold underline">
-      Tailwind Added
-    </h1>
+    <div>
+        <Header></Header>
     </div>
   );
 }
