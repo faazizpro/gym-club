@@ -7,11 +7,20 @@ import './GYM.css'
 const GYM = () => {
 
     const [exercises, setExercises] = useState([]);
+    const [time, setNewTime] = useState([]);
+
     useEffect( () => {
         fetch('exercise.json')
         .then(res=> res.json())
         .then(data => setExercises(data))
     } , [])
+
+
+    const handleAddToList = (exercise) => {
+        console.log(exercise);
+        const newTime = [...time, exercise];
+        setNewTime(newTime);
+    }
 
     return (
         <div className='gym-container'>
@@ -20,12 +29,16 @@ const GYM = () => {
                     exercises.map(exercise => <Exercise
                     key={exercise.id}
                     exercise={exercise}
+                    handleAddToList={handleAddToList}
                     ></Exercise>)
                 }
             </div>
 
-            <div className="calculate-container  border-2 border-green-500">
-                <Calculate></Calculate>
+            <div className="calculate-container">
+                <h2 className='text-2xl'>Total Time in calculate component</h2>
+                <Calculate
+                    time={time}
+                ></Calculate>
             </div>
         </div>
     );

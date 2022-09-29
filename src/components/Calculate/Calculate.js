@@ -4,7 +4,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 import './Calculate.css'
 import person from '../../images/person.jpg'
-const Calculate = () => {
+const Calculate = ({time}) => {
     return (
         <div>
             <div className='flex justify-center bg-orange-500 w-3/4 mx-auto p-5 rounded-xl mt-3 text-white'>
@@ -60,9 +60,9 @@ const Calculate = () => {
 
             {/* Exercise Details Section Start */}
             <h2 className='text-3xl text-center mt-10 font-bold underline'>Exercise Details</h2>
-            <div className='exercise-detail bg-orange-500 flex gap-10 mt-5 p-5 w-4/5 mx-auto  rounded-xl'>
+            <div className='exercise-detail bg-orange-500 flex gap-10 mt-5 p-5 w-11/12 mx-auto  rounded-xl'>
                 <div className='exercise-time bg-white p-2 w-3/4 rounded-xl'>
-                    <h2 className='font-bold text-xl'>Exercise Time: </h2>
+                    <h2 className='font-bold text-xl'>Exercise Time: {time.length} min</h2>
                 </div>
 
                 <div className='break-time bg-white p-2 w-4/5 rounded-xl'>
