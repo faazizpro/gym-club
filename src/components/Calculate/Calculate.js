@@ -88,7 +88,19 @@ const Calculate = (props) => {
 
             {/* Activity Completed Section Starts */}
             <div className='flex justify-center'>
-                <button className='bg-orange-500 py-3 px-10 rounded-lg font-bold text-xl text-white mt-7'>Activity Completed</button>
+                {/* <!-- The button to open modal --> */}
+                <label htmlFor="my-modal-3" className="btn modal-button bg-orange-500 py-3 px-10 rounded-lg font-bold text-xl text-white mt-7">Activity Completed</label>
+
+                {/* <!-- Put this part before </body> tag --> */}
+                <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+                <div className="modal">
+                <div className="modal-box relative">
+                    <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                    <h3 className="text-lg font-bold">Congratulations Your data has been received!</h3>
+
+                </div>
+                </div>
+
             </div>
             {/* Activity Completed Section Ends */}
         </div>
