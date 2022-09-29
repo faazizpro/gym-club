@@ -16,6 +16,7 @@ const Calculate = () => {
                 </div>
             </div>
             </div>
+
             <div className='body-measure bg-orange-500 flex gap-20 mt-5 p-5 w-3/4 mx-auto justify-center rounded-xl text-white'>
                 <div>
                     <h2 className='text-3xl font-semibold'>85<small>kg</small></h2>
@@ -30,6 +31,34 @@ const Calculate = () => {
                     <p className='font-semibold'>Age</p>
                 </div>
             </div>
+
+            {/* Add A Break Section Starts */}
+            <h2 className='text-3xl text-center mt-5 font-bold underline'>Add a Break</h2>
+            <div className='break-time bg-orange-500 flex gap-10 mt-5 p-5 w-3/4 mx-auto justify-center rounded-xl'>
+                
+                <div>
+                    <button className='bg-white text-black p-3 font-bold text-2xl rounded-full hover:bg-slate-900 hover:text-yellow-200  cursor-pointer'>
+                        5m
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-white text-black p-3 font-bold text-2xl rounded-full hover:bg-slate-900 hover:text-yellow-200  cursor-pointer'>
+                        10m
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-white text-black p-3 font-bold text-2xl rounded-full hover:bg-slate-900 hover:text-yellow-200  cursor-pointer'>
+                        15m
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-white text-black p-3 font-bold text-2xl rounded-full hover:bg-slate-900 hover:text-yellow-200  cursor-pointer'>
+                        20m
+                    </button>
+                </div>
+
+            </div>
+            {/* Add A Break Section Ends */}
         </div>
     );
 };
