@@ -70,6 +70,12 @@ const Calculate = () => {
                 </div>
             </div>
             {/* Exercise Details Section End */}
+
+            {/* Activity Completed Section Starts */}
+                <div className='flex justify-center'>
+                    <button className='bg-orange-500 py-3 px-10 rounded-lg font-bold text-xl text-white mt-7'>Activity Completed</button>
+                </div>
+            {/* Activity Completed Section Ends */}
         </div>
     );
 };
